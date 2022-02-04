@@ -1,0 +1,31 @@
+STEPS 
+npm init
+
+installed dependencies; 
+
+npm install express 
+
+npm i body-parser
+
+npm run dev
+
+create  route middleware == app.use('/api', )
+
+Create 'routes' folder
+
+Create this file 'home.routes.js' in the 'routes' folder.
+
+require route folder and home.route.js file in the starter app
+
+require express in the home.route.js file
+
+create a new router from the express route
+
+install environment variable using npm i dotenv, it didn't work , so i used npm install dotenv --save and require it on starter file with require('dotenv').config()
+
+create a .env file, write your variables ie PORT and BASE_URL
+
+create a controller folder and create news.controller.js file
+
+create middleware folder
+create a news.middleware.js file  
